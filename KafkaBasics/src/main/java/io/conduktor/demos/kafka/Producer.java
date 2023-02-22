@@ -19,7 +19,6 @@ public class Producer {
 
 //        Connect to Conduktor Playground
         properties.setProperty("security.protocol", "SASL_SSL");
-        properties.setProperty("sasl.jaas.config", "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"6ccDjxKMjKXL9dxK9QA7az\" password=\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29uZHVrdG9yLmlvIiwic291cmNlQXBwbGljYXRpb24iOiJhZG1pbiIsInVzZXJNYWlsIjpudWxsLCJwYXlsb2FkIjp7InZhbGlkRm9yVXNlcm5hbWUiOiI2Y2NEanhLTWpLWEw5ZHhLOVFBN2F6Iiwib3JnYW5pemF0aW9uSWQiOjcwMjgzLCJ1c2VySWQiOjgxMjkzLCJmb3JFeHBpcmF0aW9uQ2hlY2siOiJjYWI3MTQxMy03MzE1LTQzOGItODI5MS05YzA2OWE4NWFjMjIifX0.gpg_6rBd-QGcm3fmzRz1H29e9D6RsTdEO21kOQ4ojII\";\n");
         properties.setProperty("sasl.mechanism", "PLAIN");
         properties.setProperty("bootstrap.servers", "cluster.playground.cdkt.io:9092");
 
