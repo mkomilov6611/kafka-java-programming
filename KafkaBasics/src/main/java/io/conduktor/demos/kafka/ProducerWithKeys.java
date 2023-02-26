@@ -32,7 +32,7 @@ public class ProducerWithKeys {
 //        Create the Producer
         KafkaProducer<String, String> producer = new KafkaProducer<>(properties);
 
-        for (int j = 0; j < 2; j++) {
+        for (int j = 0; j < 20; j++) {
             for (int i = 0; i < 10; i++) {
                 String topic = "demo_topic";
                 String key = "key " + i;
